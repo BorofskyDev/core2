@@ -3,7 +3,7 @@ import './Solar.css'
 
 function Solar() {
   return (
-    <section className="SolarSystem gradient__bg section__padding">
+    <section className="SolarSystem gradient__bg section__padding" id='solar'>
       <div className="SolarSystem__container">
         <h1 className="SolarSystem__container-header gradient__text">Cash Flow is the Core of Your Business' System</h1>
         <p className="SolarSystem__container-header-content">Imagine your business
