@@ -6,6 +6,8 @@ import Services from './Components/Services/Services'
 import About from './Components/About/About'
 import Contact from './Components/Contact/Contact'
 import Footer from './Components/Footer/Footer'
+import CTA from './Components/CTA/CTA'
+import './index.css'
 
 
 function App() {
@@ -16,6 +18,7 @@ function App() {
       <Solar />
       <Pitch />
       <Services />
+      <CTA />
       <About />
       <Contact />
       <Footer />
