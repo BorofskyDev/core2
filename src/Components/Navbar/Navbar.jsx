@@ -6,8 +6,8 @@ import { RiCloseLine, RiMenu3Line } from 'react-icons/ri'
 const Menu = () => (
   <>
     <p><a href='#home'>Home</a></p>
-    <p><a href='#media'>Media</a></p>
-    <p><a href='#clients'>Clients</a></p>
+    <p><a href='#solar'>My Business Core</a></p>
+    <p><a href='#services'>Services</a></p>
     <p><a href='#testimonials'>Testimonials</a></p>
     <p><a href='#contact'>Contact</a></p>
   </>
