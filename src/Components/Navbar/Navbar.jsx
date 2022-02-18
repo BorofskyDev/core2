@@ -8,7 +8,7 @@ const Menu = () => (
     <p><a href='#home'>Home</a></p>
     <p><a href='#solar'>My Business Core</a></p>
     <p><a href='#services'>Services</a></p>
-    <p><a href='#testimonials'>Testimonials</a></p>
+    <p><a href='#about'>About</a></p>
     <p><a href='#contact'>Contact</a></p>
   </>
 )
