@@ -58,7 +58,7 @@
 }
 
 @media screen and (max-width: 950px) {
-    .SellSafe__cta {
+    .cta {
         flex-direction: column;
     }
 
@@ -79,7 +79,7 @@
         justify-content: center;
     }
 
-    .SellSafe-cta-btn {
+    .cta__btn {
         float: left;
     }
 
