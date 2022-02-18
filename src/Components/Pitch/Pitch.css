@@ -1,0 +1,127 @@
+.Pitch__possibility {
+    display: flex;
+    flex-direction: row;
+    margin-top: -8rem;
+}
+
+.Pitch__possibility-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.Pitch__possibility-image__shadow {
+    position: relative;
+    margin: 200px auto 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border-radius: 1 0px;
+}
+
+.Pitch__possibility-image__shadow:before,
+.Pitch__possibility-image__shadow:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background: linear-gradient(45deg, #6800a5, #d8083c, #6800a5, #d8083c);
+    background-size: 400%;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    z-index: -1;
+    border-radius: 10px;
+    animation: animate 20s linear infinite;
+}
+
+.Pitch__possibility-image__shadow:after {
+    filter: blur(20px);
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 300% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.Pitch__possibility-image img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    /* box-shadow: 0 0 20px 6px #030022,
+        0 0 30px 12px #7173e0,
+        0 0 35px 15px #eeedee; */
+}
+
+.Pitch__possibility-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-left: 5rem;
+}
+
+.Pitch__possibility-content h4 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 30px;
+    color: #71e5ff;
+}
+
+.Pitch__possibility-content h4:last-child {
+    color: #ff8a71;
+}
+
+.Pitch__possibility-content h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 45px;
+    margin: 1rem 0;
+}
+
+.Pitch__possibility-content p {
+    font-family: var(--font-family);
+    font-size: 1.3rem;
+    line-height: 30px;
+    color: var(--color-text);
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1250px) {
+    .Pitch__possibility {
+        flex-direction: column;
+    }
+
+    .Pitch__possibility-image {
+        margin: 1rem 0;
+        margin-left: 10%;
+    }
+
+    .Pitch__possibility-image img {
+        width: 80%;
+        height: 80%
+    }
+
+    .Pitch__possibility-content {
+        margin-top: 2rem;
+    }
+
+    .Pitch__possibility-image__shadow:before,
+    .Pitch__possibility-image__shadow:after {
+        width: calc(80% + 4px);
+
+    }
+}
