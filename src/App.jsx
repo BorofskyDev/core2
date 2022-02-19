@@ -18,9 +18,9 @@ function App() {
       <Solar />
       <Pitch />
       <Services />
-      <CTA />
       <About />
-      <Contact />
+      <CTA />
+      {/* <Contact /> */}
       <Footer />
     </main>
   );
